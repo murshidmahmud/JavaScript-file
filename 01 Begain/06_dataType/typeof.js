@@ -1,6 +1,7 @@
 //typeof Operator
 
-typeof "Murshid"
-typeof 34
+console.log(typeof "Murshid");
+console.log(typeof 34);
+console.log(typeof '+');
 
 
