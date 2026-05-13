@@ -40,3 +40,6 @@ console.log(Number("40"));
 
 console.log(Number(true))
 console.log(Number(false))
+
+
+

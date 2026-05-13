@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let user = prompt("Enter the first name: ");
+        let user2 = prompt("Enter the last name: ");
+
+        //add:
+        let add = user +" "+ user2;
+        document.write(add, "<br>");
+
+        //concat():
+        let fullname = user.concat(" "+ user2);
+        document.write(fullname, "<br>");
+
+        //length:
+        document.write(fullname.length, "<br>");
+
+        //toUpperCase():
+        let upper = fullname.toUpperCase();
+        document.write(upper, "<br>");
+
+        //charAt():
+        let position = fullname.charAt(3);
+        document.write(position, "<br>");
+    </script>
+</body>
+</html>
