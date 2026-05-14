@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        //String indexOf():
+        let text = "I love my Motherland";
+        let index = text.indexOf("my");
+        document.write("String idexOf: ", index, "<br>");
+
+
+        //lastIndexOf():
+        let text1 = "I love my Fatherland";
+        let index2 = text1.lastIndexOf("Fatherland");
+        document.write("LastIndexOf: ", index2, "<br>");
+        
+
+        //search():
+        let text3 ="I love my homeland";
+        let index3 = text3.search("my");
+        document.write("Search : ",index3, "<br>");
+
+
+        //match():
+        let text4 = "My name is Murshid Mahmud";
+        let index4 = text4.match("sde");
+        document.write("Match is: ", index4, "<br>");
+
+
+        //matchAll():
+        let text5 = "I love cats. Cats are very easy to love. Cats are very popular.";
+        const iterator = text5.matchAll("Cats");
+        document.write("Match All: ",iterator, "<br>");
+
+
+        //include():
+        let text6 = "Hello world, welcome to durty world";
+        text6 = text6.includes("to");
+        document.write("Include: ", text6, "<br>");
+
+        //startWith():
+        let text7 = "Hello world, welcome to durty world";
+        text7 = text7.startsWith("Hello");
+        document.write("startsWith: ", text7, "<br>");
+
+
+        //endsWith():
+        let text8 = "Hello world, welcome to durty world";
+        text8 = text8.endsWith("world");
+        document.write("startsWith: ", text8, "<br>");
+    </script>
+</body>
+</html>
