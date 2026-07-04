@@ -4,7 +4,7 @@ for(let i=1; i<=100; i++){
     }
     document.write(" "+ i);
 }
-document.write("end number");
+document.write("end number","<br>");
 
 
 
