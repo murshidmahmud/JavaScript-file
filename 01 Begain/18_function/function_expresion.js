@@ -12,6 +12,7 @@
 }) (50, 60);
 
 
+
 //Function Expresion:
 
 let display = function name (){
