@@ -9,7 +9,7 @@ console.log(nam);
 //document.write("<h1>",nam)
 
 //added Css file: 
-document.write(`<h1 style="color:red;">${num},</br>${nam}</h1>`)
+document.write(`<h1 style="color:red;">${num}</br>${nam}</h1>`)
 
 
 //array length:
@@ -38,7 +38,7 @@ const concat = country1.concat(country2);
 //added css :
 document.write(`
     <h2 style="
-    color:red ; 
+    color:black ; 
     background:orange;
     padding:20px;
     margin:20px;
