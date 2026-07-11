@@ -46,4 +46,85 @@ document.write(`
     border-radius: 108px;">
     ${concat}</h2>`)
 
+//--------------------------------------//---------------------------------
+
+document.write(`<h2 style = "color: white; background: blue;border-radius:108px;padding: 4px; text-align: center;">${"Shift & Unshift"}</h2>`)
+
+//array Shift() and unshift(): প্রথম থেকে element বাদ দেয়
+const fruites = ["Apple","Orange","Mango","Guava","Jack-fruit"];
+document.write("<h3>Before shift: " + fruites + "<br>");
+
+fruites.shift();
+document.write("<h2>After shift: " +fruites);
+
+
+//array UnShift(): প্রথমে element add করে।
+const roll = [1,2,3,5,40,88,90];
+document.write("<h3>Before shift rool: "+roll);
+
+roll.unshift(0,1);
+document.write("<h2>After shift roll: " + roll);
+
+//-------------------------------------------//--------------------------------
+
+document.write(`<h2 style = "color: ; background: skyblue;border-radius:108px;padding: 4px; text-align: center;">${"Splice"}</h2>`);
+
+//array splice(): Array position ধরে 0 থাকলে element add হবে।
+//                Array position ধরে 1/2/3/4..... থাকলে শেষ থেকে element remove হবে।
+const nam2 = ["Murshid", "Ayat","Shakil"];
+document.write("<h3>Before Splice: " + nam2);
+
+nam2.splice(2,0,"Oli","Emon");
+document.write("<h2>After Splice: ", nam2);
+
+nam2.splice(3,1,"Mahmud");
+document.write("<br> After splice for 3, 1: ", nam2);
+
+//--------------------------------------//-------------------------------------
+
+document.write(`<h2 style = "color: white; background: red;border-radius:108px;padding: 4px; text-align: center;">${"Slice"}</h2>`);
+
+//array slice(): element remove 
+const university = ["DIU","NUB","NSU","SEU"];
+document.write("<h3> Before Slice: ", university);
+
+let slice = university.slice(3);
+document.write("<h2>After slice: ", slice);
+
+//---------------------------------//---------------------------------
+
+document.write(`<h2 style = "color: #162456; background: #E12AFB;border-radius:108px;padding: 4px; text-align: center;">${"Array Sort"}</h2>`);
+
+//array sort: 
+const district = ["Dhaka","Gaibandha","Rangpur","Dinajpur"];
+document.write("<h3> Before array sort: ", district);
+
+district.sort();
+document.write("<h2>After array sort: ", district);
+
+
+//-------------------------------//-----------------------------------
+
+document.write(`<h2 style = "color: #ffffff; background: #7b4ad6;border-radius:108px;padding: 4px; text-align: center;">${"Array reverse"}</h2>`);
+
+//array reverse():
+const num2 =["one","two","three","four"];
+document.write("<h3>Before reverse: ", num2);
+
+num2.reverse();
+document.write("<h3>After reverse: ", num2);
+
+
+//-----------------------------------//--------------------------------
+
+document.write(`<h2 style = "color: #72fc00; background: #ff0909;border-radius:108px;padding: 4px; text-align: center;">${"Numeric Sort"}</h2>`);
+
+//Numeric Sort:
+const num3 = [400,50,2,8,0,1,6,88,66,20];
+document.write("<h3>Before numeric sort: ", num3);
+
+num3.sort(function(a,b){
+    return a-b;
+});
+document.write("<h2>After numeric sort: ", num3);
 
