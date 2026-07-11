@@ -8,15 +8,20 @@ console.log(nam);
 //document.write("<h1>",num, "</br>", nam)
 //document.write("<h1>",nam)
 
+//------------------------------//------------------------------
+
 //added Css file: 
 document.write(`<h1 style="color:red;">${num}</br>${nam}</h1>`)
 
+//--------------------------------------//-------------------------------
 
 //array length:
 let person = ["Mahmud","Ayat","Shakil","Ashiqul","Emon","Maruf","Zahid"];
 
 let length = person.length;
 document.write("<h1></br>Array length is: ", length);
+
+//--------------------------------------//-------------------------------
 
 //array push() and pop():
 const number = [10,20,30,40,50,60];
@@ -27,6 +32,7 @@ document.write("</br>After push array is: ", number);
 const pop = number.pop();
 document.write("</br>After pop array is: ", number);
 
+//----------------------------------------//-----------------------------------
 
 //Array concat(): দুইটা array কে একত্রে যুক্ত করার জন্য Concatenition Use করা হয়।
 const country1 = ["Bangladesh","India","Japan","Srilanka"];
