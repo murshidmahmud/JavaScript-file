@@ -26,8 +26,28 @@ for(let i=0; i<number1.length; i++){
 
 //For....of loop use:
 
+document.write("<br>");
+
 let number2 = [222,333,666,58,888,88852];
 
 for(let value of number2){
-    document.write("<br/>", value);
+    document.write(value,  " ");
 }
+
+
+//User input 1D array:
+
+// let user1= prompt("Enter the array: ");
+
+// for(let print of user1){
+//     document.write("<br/>",print);
+// }
+
+
+// document.write("<br>");
+
+// let user2 = prompt("Enter the array user2: ");
+
+// for(let i=0; i<user2.length; i++){
+//     document.write(user2[i] + " ");
+// }
