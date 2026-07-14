@@ -1,5 +1,6 @@
 document.write(`<h2 style = "color: #000000; background: #f8b200;border-radius:108px;padding: 4px; text-align: center;">${"1D Array"}</h2>`);
 
+//---------------------------------//-----------------------------
 
 //1D array: 
 
@@ -15,6 +16,8 @@ document.write("<h2>",num1);
 // // console.log(num3[1]);
 // // console.log(num3[2]);
 
+//----------------------------------//------------------------------
+
 //For loop use: 
 
 let number1 = [2,3,4,5,4,3,2];
@@ -23,6 +26,7 @@ for(let i=0; i<number1.length; i++){
     document.write("<br/>",number1[i]);
 } 
 
+//--------------------------------//---------------------------------
 
 //For....of loop use:
 
@@ -34,6 +38,7 @@ for(let value of number2){
     document.write(value,  " ");
 }
 
+//-------------------------------------//-----------------------------
 
 //User input 1D array:
 
@@ -43,6 +48,7 @@ for(let value of number2){
 //     document.write("<br/>",print);
 // }
 
+//-----------------------------------//----------------------------
 
 // document.write("<br>");
 

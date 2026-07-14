@@ -1,6 +1,7 @@
 document.write(`<h2 style = "color: #fca400; background: #5709ff;border-radius:108px;padding: 4px; text-align: center;">${"2D Array"}</h2>`);
 document.write("<h2>");
 
+//---------------------------------//----------------------------
 //2D array: 
 
 let matrix = [
@@ -9,6 +10,8 @@ let matrix = [
     [7,8,9],
 ];
 document.write(matrix + " "+"<br><br>");
+
+//--------------------------------//------------------------------
 
 //Nested for loop: 
 
@@ -20,6 +23,8 @@ for(let i=0; i<matrix.length; i++){
 }
 
 document.write("<br>");
+
+//------------------------------//-----------------------------------
 
 //for....of loop:
 
