@@ -1,0 +1,50 @@
+{
+    "Students": [
+        {
+            "name": "Murshid Mahmud",
+            "middleName": null,
+            "age": 24,
+            "cgpa": 3.44,
+            "isRegistered": true,
+            "Language": [
+                "Bengali",
+                "English",
+                "Hindi"
+            ],
+            "friends": [
+                {
+                    "name": "Anawer",
+                    "age": 25
+                },
+                {
+                    "name": "Tutul",
+                    "age": 24
+                }
+            ]
+        },
+        
+        {
+            "name": "Rokon Sorker",
+            "middleName": null,
+            "age": 22,
+            "cgpa": 3.50,
+            "isRegistered": true,
+            "Language": [
+                "Bengali",
+                "English",
+                "Spanish",
+                "Hindi"
+            ],
+            "friends": [
+                {
+                    "name": "Mukter",
+                    "age": 26
+                },
+                {
+                    "name": "Misty Khan",
+                    "age": 21
+                }
+            ]
+        }
+    ]
+}
