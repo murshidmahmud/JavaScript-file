@@ -11,7 +11,7 @@
                 "English",
                 "Hindi"
             ],
-            "friends": [
+            "friends1": [
                 {
                     "name": "Anawer",
                     "age": 25
@@ -35,7 +35,7 @@
                 "Spanish",
                 "Hindi"
             ],
-            "friends": [
+            "friends2": [
                 {
                     "name": "Mukter",
                     "age": 26
