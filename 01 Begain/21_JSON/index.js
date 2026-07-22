@@ -1,6 +1,6 @@
 const data2 = require("./json_data2.json");
 const data1 = require("./json_data1.json");
-// //console.log(data,data2);
+//console.log(data,data2);
 
 //Json_data1 data:
 console.log(data1.friends[0]);
@@ -22,6 +22,13 @@ delete data1.friends[0].name;
 console.log(data1);
 
 
-//
+//Convert JSON:
+
+//Client to Server:
+console.log(JSON.stringify(data1));
+
+//Server to Client: 
+console.log(JSON.parse('{"name" : "Mondol"}'));
+
 
 
